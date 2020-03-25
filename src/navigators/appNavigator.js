@@ -42,7 +42,7 @@ const AppNavigation = createStackNavigator({
         navigationOptions: ({ navigation }) => ({
             header: (
                 <CustomHeader
-                    title={'Post details'}
+                    title={'User details'}
                     navigation={navigation}
                 />
             ),
